@@ -1,0 +1,45 @@
+Title : Crafting Minecraft in CraftStudio
+
+Plan :
+
+- Intro to CS and Daneel
+
+- Intro to Models and Animations : Character model + walk animation
+    - Describing the interface
+    - Creating a Minecraft character (6 blocks + texture)
+    - Creating a walk animation
+    - talking about importing assets
+
+- Intro to Maps and TileSet
+    - creating a small tileset with the grass and ground texture
+    - building a small test map
+    - difference between map coordinate and world coordinate
+    - talking a little about modifying maps via scripts
+
+- Intro to Scenes and Scripts
+    - theory about game obects and components + describing components
+    - building the first scene : map + character model + player camera
+    - theory about scripts in CraftStudio (talking about both text and visual scripts ?)
+    - adding Daneel scripts
+
+- Physics + FPS movement (character control)
+    - theory about physics engine, gravity
+    - game controls
+    - script creation
+
+- Blocs pick-up/drop, inventory, intro to hud
+    - block placeholder model
+    - inventory theory
+    - hud
+    - pick-up/drop
+
+- Ground digging (creation of blocks
+- Crafting
+
+Other chapter (include where appropriate)
+
+- Ennemies/NPCs, IA, Pathfinding
+- Water, lava
+- Doors, buton, TNT, train
+- Redstone
+- map generation with seeded random generator
