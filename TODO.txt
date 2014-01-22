@@ -3,6 +3,12 @@ Title : Crafting Minecraft in CraftStudio
 Plan :
 
 - Intro to CS and Daneel
+    - Finish MineCraft §
+
+- Intro to the CraftStudio
+    - the client
+    - creating a project
+    - anatomy of a project (settings, admin)    
 
 - Intro to Models and Animations : Character model + walk animation
     - Describing the interface
