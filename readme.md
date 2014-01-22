@@ -1,3 +1,3 @@
-# CraftStudio Minecraft Tutorial
+# Crafting Minecraft in CraftStudio
 
-Serie of tutorials that aim to built a Minecraft-like with [CraftStudio](http://craftstud.io).
+A series of tutorials that aim to built a Minecraft-like with [CraftStudio](http://craftstud.io) (and [Daneel](http://daneel.florentpoujol.fr)).
