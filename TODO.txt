@@ -3,7 +3,7 @@ Title : Crafting Minecraft in CraftStudio
 Plan :
 
 - Intro to CS and Daneel
-    - Finish MineCraft §
+    - Finish MineCraft and last paragraph, makes screenshots
 
 - Intro to the CraftStudio
     - the client
