@@ -5,7 +5,7 @@ In this tutorial entitled "Crafting Minecraft in CraftStudio", you will learn st
 
 ## CraftStudio
 
-![CraftStudio logo](/img/tutorial-introduction/craftsudio-logo.png "CrafStudio logo")
+![CraftStudio logo](http://florentpoujol.github.io/CraftStudioMinecraftTutorial/img/tutorial-introduction/craftsudio-logo.png "CrafStudio logo")
 
 Have you ever wanted to create your own video game but don’t have a degree in comptuer science, art or design and know nothing about programming, modeling or level design ?  
 Or maybe you do have degrees but don’t really know where to start to make a video game ?  
@@ -23,7 +23,7 @@ CraftStudio is also multi-platform. The editor works on Windows, Mac and Linux a
 
 CraftStudio offers a full scripting environment, powered by the popular [Lua](http://www.lua.org) scripting language and even provide a visual scripting alternative that let's you build scripts very intuitively by assembling blocks.
 
-![Visual Scripting](/img/tutorial-introduction/VisualScripting.png "Visual Scripting")
+![Visual Scripting](http://florentpoujol.github.io/CraftStudioMinecraftTutorial/img/tutorial-introduction/VisualScripting.png "Visual Scripting")
 
 
 ### Daneel
@@ -41,7 +41,7 @@ CraftStudio has very often been compared to Minecraft because they both share a 
 CraftStudio also got a lot of publicity from the Minecraft community because it allows to create models and easily export them to be used in Minecraft.  
 Finally, CraftStudio has most notably been exibited at the *Minecon* 2012 as well as at *Des Cubes et Des Pioches*, another Minecraft convention in 2013. 
 
-![At-At in Minecraft](/img/tutorial-introduction/VisualScripting.png "At-At in Minecraft")
+![At-At in Minecraft](http://florentpoujol.github.io/CraftStudioMinecraftTutorial/img/tutorial-introduction/VisualScripting.png "At-At in Minecraft")
 
 The relations between CraftStudio and Minecraft are still strong and this tutotrial will make no exceptions.  
 Also, Minecraft is interesting because it is very popular, so even if you didn't played to it, you probably have a good idea of what it is, what it looks like and how you play it.  
