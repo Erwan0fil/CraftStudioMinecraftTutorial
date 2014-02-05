@@ -3,7 +3,13 @@
     float: left;
     margin: 5px;
 }
+.text-align-right {
+    text-align: right;
+}
 </style>
+<div class="text-align-right">
+[Introduction to CraftStudio >](craftstudio-introduction.md)
+</div>
 
 # Crafting Minecraft in CraftStudio: the Turorial
 
@@ -61,11 +67,12 @@ Also, Minecraft is interesting because it is very popular, so even if you didn't
 Anyone who would like to learn CraftStudio or get a good idea of its capabilities.  
 
 It is not particularly intended for newcomers in game development as the difficulty of each chapter will varies a lot and won't really follow a learning curve.  
-Most of all, even if the scripts will be explained, it won't learn you how to code and it requires you to be already familiar with Lua (which hopefully [can be learned very quickly](http://stackoverflow.com/a/8097810/1977849)).
+Most of all, even if the scripts will be explained, it won't learn you how to code and it requires you to be already familiar with Lua (which hopefully [can be learned very quickly](http://stackoverflow.com/a/8097810/1977849) ).
 
 
 ## Work In Progress
 
-All these tutorials are work in progress, and are thus subject to change/be fixed/be improved, even chapters considered as released.
-
-[Next chapter : Introduction to CraftStudio >](craftstudio-introduction.md)
+All these tutorials are work in progress, and are thus subject to change/be fixed/be improved, even chapters considered as released.  
+<div class="text-align-right">
+[Introduction to CraftStudio >](craftstudio-introduction.md)
+</div>
