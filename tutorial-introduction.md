@@ -1,17 +1,26 @@
-# Introduction
+<style type="text/css">
+.float-left {
+    float: left;
+    margin: 5px;
+}
+</style>
 
-In this tutorial entitled "Crafting Minecraft in CraftStudio", you will learn step-by-step how to use the game making software **CraftStudio** through the development of a Minecraft-like game.
+# Crafting Minecraft in CraftStudio: the Turorial
+
+In this tutorial, you will learn step-by-step how to use the game making software **CraftStudio** through the development of a Minecraft-like game.
 
 
 ## CraftStudio
 
-![CraftStudio logo](http://florentpoujol.github.io/CraftStudioMinecraftTutorial/img/tutorial-introduction/craftsudio-logo.png "CrafStudio logo")
+<a href="http://craftstud.io" title="Go to CraftStudio's website">
+    <img class="float-left" src="https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/tutorial-introduction/craftstudio-logo.png" alt="CraftStudio logo" height="200px">
+</a>
 
 Have you ever wanted to create your own video game but don’t have a degree in comptuer science, art or design and know nothing about programming, modeling or level design ?  
 Or maybe you do have degrees but don’t really know where to start to make a video game ?  
 Maybe you just want to have fun while creating small games for your friends or even with your friends.
 
-**[CraftStudio](http://craftstud.io)** is a cooperative game-making platform, but if it has been marketed as *game to make games*, it’s all but a toy !  
+**[CraftStudio](http://craftstud.io "Go to CraftStudio's website")** is a cooperative game-making platform, but if it has been marketed as *game to make games*, it’s all but a toy !  
 CraftStudio is an all-in-one game development software that let's you create any games while focusing on intuitivity, simplicity and fun !  
 
 No other tool is required, you can create 100% of a game directly within CraftStudio !  
@@ -23,7 +32,7 @@ CraftStudio is also multi-platform. The editor works on Windows, Mac and Linux a
 
 CraftStudio offers a full scripting environment, powered by the popular [Lua](http://www.lua.org) scripting language and even provide a visual scripting alternative that let's you build scripts very intuitively by assembling blocks.
 
-![Visual Scripting](http://florentpoujol.github.io/CraftStudioMinecraftTutorial/img/tutorial-introduction/VisualScripting.png "Visual Scripting")
+![Visual scripting in CraftStudio](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/tutorial-introduction/VisualScripting.png "Visual scripting in CraftStudio")
 
 
 ### Daneel
@@ -41,7 +50,7 @@ CraftStudio has very often been compared to Minecraft because they both share a 
 CraftStudio also got a lot of publicity from the Minecraft community because it allows to create models and easily export them to be used in Minecraft.  
 Finally, CraftStudio has most notably been exibited at the *Minecon* 2012 as well as at *Des Cubes et Des Pioches*, another Minecraft convention in 2013. 
 
-![At-At in Minecraft](http://florentpoujol.github.io/CraftStudioMinecraftTutorial/img/tutorial-introduction/VisualScripting.png "At-At in Minecraft")
+![An AT-AT in Minecraft](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/tutorial-introduction/ATAT.png "An AT-AT, made in CraftStudio, viewed in Minecraft")
 
 The relations between CraftStudio and Minecraft are still strong and this tutotrial will make no exceptions.  
 Also, Minecraft is interesting because it is very popular, so even if you didn't played to it, you probably have a good idea of what it is, what it looks like and how you play it.  
@@ -58,3 +67,5 @@ Most of all, even if the scripts will be explained, it won't learn you how to co
 ## Work In Progress
 
 All these tutorials are work in progress, and are thus subject to change/be fixed/be improved, even chapters considered as released.
+
+[Next chapter : Introduction to CraftStudio >](craftstudio-introduction.md)
