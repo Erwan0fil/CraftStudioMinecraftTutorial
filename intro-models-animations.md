@@ -12,8 +12,9 @@
 # Introduction to Models and Animations
 
 Enought chit-chat, let's start creating !
-In this tutorial, you will create the model and the texture of your avatar   This chapter will get you create a model
+In this tutorial, you will create the model and the texture and the walk animation of Steve, your avatar.
 
+![Minecraft's Steve](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-models-animations/minecraft-steve.png "Minecraft's Steve")
 
 [< CraftStudio introduction](craftstudio-introduction.md)  
 <div class="text-align-right">
