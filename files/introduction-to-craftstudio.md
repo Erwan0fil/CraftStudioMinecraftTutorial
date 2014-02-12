@@ -6,7 +6,7 @@
 
 [< Tutorial introduction](tutorial-introduction.md)  
 <div class="text-align-right">
-[Introduction to Models and Animations >](intro-models-animations.md)
+[Introduction to Models and Animations >](introduction-to-models-and-animations.md)
 </div>
 
 # Introduction to CraftStudio
@@ -113,5 +113,5 @@ To open the project, you can either click again on the button in the server's wi
 
 [< Tutorial introduction](tutorial-introduction.md)
 <div class="text-align-right">
-[Introduction to Models and Animations >](intro-models-animations.md)
+[Introduction to Models and Animations >](introduction-to-models-and-animations.md)
 </div>
