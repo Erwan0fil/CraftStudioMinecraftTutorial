@@ -8,7 +8,7 @@
 }
 </style>
 <div class="text-align-right">
-[Introduction to CraftStudio >](craftstudio-introduction.md)
+[Introduction to CraftStudio >](introduction-to-craftstudio.md)
 </div>
 
 # Crafting Minecraft in CraftStudio: the Turorial
@@ -74,5 +74,5 @@ Most of all, even if the scripts will be explained, it won't learn you how to co
 
 All these tutorials are work in progress, and are thus subject to change/be fixed/be improved, even chapters considered as released.  
 <div class="text-align-right">
-[Introduction to CraftStudio >](craftstudio-introduction.md)
+[Introduction to CraftStudio >](introduction-to-craftstudio.md)
 </div>
