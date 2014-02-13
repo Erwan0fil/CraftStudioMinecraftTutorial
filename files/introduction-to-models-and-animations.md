@@ -1,17 +1,3 @@
-<style type="text/css">
-.float-left {
-    float: left;
-    margin: 5px;
-}
-.float-right {
-    float: right;
-    margin: 5px;
-}
-.text-align-right {
-    text-align: right;
-}
-</style>
-
 [< CraftStudio introduction](introduction-to-craftstudio.md)  
 <div class="text-align-right">
 [Introduction to Maps and TileSets >](introduction-to-maps-and-tilesets.md)
@@ -154,6 +140,24 @@ Do the same for both legs and *voilà*, you have created your first model with C
 Well, actually all we have for now is a hierarchy of motionless white blocks...
 
 We still have to texture the blocks and animate them, so lets get to it !
+
+--- 
+
+> Stop ! Isn't it wise to save before going further ?
+
+Absolutely ! But don't fear because it's already saved.  
+Actually it saves all the time. Because of the multilayer aspect, all modifications are saved automatically and broadcasted to all players that have the asset opened.  
+That's great, right ?
+
+Yes, but you may have noticed that you can't undo what you did, the `Ctrl+Z` shortcut has no effect.
+
+Hopefully, there is system of **revision**. A revision is a save of the asset. What's interesting is that you can replace the current version of your asset by restoring an old revision. This is the only way to undo something. 
+
+Create a revision by clicking the `Save` button (above the main window) (or `Ctrl+S`). Update the revision's name if you want.  
+You can click on the revision dropdown list (just next to the save button) to browse all revisions of this asset and click n one revision to visualize it.  
+To restore your asset to this revision, click on the `Restore` button.
+
+A good practice is to create a revision after each important task you complete so that you don't loose to much if you have to undo something.
 
 
 ## Paint : the texture
