@@ -1,9 +1,3 @@
-<style type="text/css">
-.text-align-right {
-    text-align: right;
-}
-</style>
-
 [< Tutorial introduction](tutorial-introduction.md)  
 <div class="text-align-right">
 [Introduction to Models and Animations >](introduction-to-models-and-animations.md)

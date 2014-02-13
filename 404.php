@@ -2,5 +2,5 @@
 
 <p>
     File not found ! </br>
-    <a href="<?php echo $indexPath; ?>">Go back to the index.</a>
+    <a href="<?php echo $indexUrl; ?>">Go back to the index.</a>
 </p>

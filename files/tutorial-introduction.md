@@ -1,12 +1,4 @@
-<style type="text/css">
-.float-left {
-    float: left;
-    margin: 5px;
-}
-.text-align-right {
-    text-align: right;
-}
-</style>
+<div></div>
 <div class="text-align-right">
 [Introduction to CraftStudio >](introduction-to-craftstudio.md)
 </div>
