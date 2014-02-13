@@ -3,6 +3,10 @@
     float: left;
     margin: 5px;
 }
+.float-right {
+    float: right;
+    margin: 5px;
+}
 .text-align-right {
     text-align: right;
 }
@@ -51,7 +55,7 @@ In the middle you have the main window, it's in here that you will see the model
 
 Below you can find the chat and to the right, the list of people that have the model opened (with whom you can discuss via the chat). *Remember that one of the main feature of CraftStudio is that it's multiplayer, you can built any asset with several other people at the same time.*
 
-On the left, you will find the `Build`, `Paint` and `Animate` panes which are the three tasks needed to build a model.
+On the left, you will find the `Build`, `Paint` and `Animate` tabs which are the three tasks needed to build a model.
 
 
 ## Build : assemble the blocks
@@ -132,7 +136,7 @@ Create a new block, name it `Left Arm`, parent it to the trunk, change its size 
 
 That's a very good question, thanks for asking !
 
-The answer is simple to remember : the red arrow points to the left (toward the positiv `x`), the green arrow points to the top (toward the positiv `y`) and the blue arrow point to the front (toward the positiv `z`).  
+The answer is simple to remember : the red arrow points to the left (toward the positive `x`), the green arrow points to the top (toward the positive `y`) and the blue arrow point to the front (toward the positive `z`).  
 If you didn't moved to much with the camera, there is a chance that you face the front of the model, so you have to put the arm's block to the right of the trunk (the correct position is `6,0,0`).
 
 Do the same for the other arm and both legs.
@@ -147,11 +151,80 @@ Do the same for both legs and *voilà*, you have created your first model with C
 
 ![The model's structure is now completed](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-models-animations/model-blocks-complete.png "The model's structure is now completed")
 
-Wel, actually all we have for now is a hyerarchie of motionless white blocks...
+Well, actually all we have for now is a hierarchy of motionless white blocks...
 
 We still have to texture the blocks and animate them, so lets get to it !
 
+
 ## Paint : the texture
+
+<a href="http://craftstud.io" title="Go to CraftStudio's website">
+    <img class="float-left" src="https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-models-animations/texture-panel.png" alt="CraftStudio logo" height="400px">
+</a>
+
+Before we head over to the `Paint` tab and begin to lay colors on Steve, you have some theory to learn.  
+So for now, create a new model, and just add a single block.  
+
+The left-bottom panel should looks like the image on the left. Before we paint the blocks faces on the texture we must give the correct size to the texture, depending on the layout you give the all the block's faces.
+
+Enlarge the panel by clicking and dragging the separation between it and the main window, then zoom with the mouse wheel while the mouse is over the texture.
+
+The `Sheet size` is the texture's size (the white area). You may increase it up to 2048x2048 pixels but in our case, it's not needed.  
+Now look at the texture. Depending if you have the block selected, you may see purple or red lines and maybe `Front` in red inside one of the face.  
+
+The lines is the cube's unwrap, it outlines the cube's faces. It's by painting inside each square that you will paint each face of each block.  
+You can click inside each face and CS displays which face it is. 
+
+If you click and drag, you can also move the unwraps on the texture. And by playing with the row of buttons, you can change the unwraps direction and orientation. 
+
+The six faces are outlines because the `Unwrap Mode` is set to `Full`.  
+Set the mode to `Collapsed` in order to have all unwrap on top of each other, each faces will share the same looks.  
+The last unwrap mode is `Custom`, it allows to move each face's unwrap individually.
+
+Now, go back to Steve's model. The texture is a little mess because the unwraps of all the blocks are on top of each other.  
+Separate them by clicking on each block (in the block's list) then by moving the unwrap (click and drag). We will just give the same texture to each arms and each leg, so you may put the unwrap for each arm and leg at the same position.  
+When you have finished, you should have a texture that looks like this :
+
+![The unwraps are repositioned](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-models-animations/unwraps-repositioned.png "The unwraps are repositioned")
+
+And as you can see, the unwrap's shape and size match the block's size.
+
+That's esnough for the `Build` tab, go to the `Paint` tab !
+
+The panel changed, you now have four buttons that we will call `Paint`, `Erase`, `Select` and `Move`.  
+Below you have the `Select color` button and the brush size's slider.  
+
+Below, the texture and the unwraps are still there but a little square now follows the mouse pointer, this is the brush.  
+
+Click on the `Erase` button and left click on the texture. Some white pixels now become a gray checked pattern because the texture is removed.  
+If you do that on a face, you will see (in the main window) that this face become transparent where you removed the texture.  
+
+The `Select` tool allows you to select part of the texture then copy/paste and/or move the selected part with the `Move` tool.  
+
+Steve is nor white nor transparent so we have to put some color inside the unwraps. Start by selecting a color with the `Select color` button or by right-clicking on the texture then change the brush's size with the slider or `Ctrl + MouseWheel`.
+
+Apply the desired colors to the desired blocks, observe how it looks in the main window.  
+Try to reproduce Steve's look or be creative !
+
+Here is what I end up with after a couple of minutes :
+
+![Steve texture](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-models-animations/steve-texture-1.png "Steve texture")
+
+Not bad ! But for the sake of this tutorial, we will improve the face and reproduce exactly Steve's face not by using the paint tool but by copy/pasting the whole face from an external image.
+
+[We will use this image](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-models-animations/steve-face.png) but it is to big. Steve face measure 8x8 pixels while the image is 300x300 pixels.  
+
+<a href="http://craftstud.io" title="Steve texture with face">
+    <img class="float-right" src="https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-models-animations/steve-texture-with-face.png" alt="Steve texture with face" >
+</a>
+
+All we need to do is open the image in an image editing software (Paint, Paint.net, Photoshop, Inkscape, ...) and resize the image to 8x8 pixels.  
+Once this is done, copy the image, return to CraftStudio, right-click over the texture (in the `Paint` tab) and paste the image with `Ctrl+V`.
+
+The face as appeared over the texture with a white and black border. The `Move` tool is also now selected. Move the face over the correct unwrap then left click outside the face to apply it.
+
+There you go ! We now have a nice model with a nice texture.  
+Lets get him a nice animation, too !
 
 
 ## Animate : get the blocks moving
