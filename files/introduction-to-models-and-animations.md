@@ -8,7 +8,15 @@
 Enought chit-chat, let's start creating !  
 In this tutorial, you will create the model, texture and walk animation of Steve, your avatar.
 
+- [Create your first asset](#create-your-first-asset)
+- [The interface](#interface)
+- [Build : assemble the blocks](#build)
+- [Paint : don't go over the edges](#paint)
+- [Animate : get the blocks moving](#animate)
+- [Conclusion](#conclusion)
 
+
+<a name="create-your-first-asset"></a>
 ## Create you first asset
 
 By now you should have oppened your project and the interface should looks like this :
@@ -31,6 +39,7 @@ As you can see in the image on the left (click on it to view full size), Steve i
 The blocks themselves are very simple since the head is a cude, each arm and leg have the same size and are just elongated rectangular parallelepiped ("3D rectangles"), and the trunk is like an arm but twice as wide.  
 
 
+<a name="interface"></a>
 ## The Interface
 
 ![Interface of the model editor](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-models-animations/model-interface.png "Interface of the model editor")
@@ -39,11 +48,12 @@ On the right, you have the list of blocks (models are only composed of blocks) a
 
 In the middle you have the main window, it's in here that you will see the model and do some manipulations on the blocks.  
 
-Below you can find the chat and to the right, the list of people that have the model opened (with whom you can discuss via the chat). *Remember that one of the main feature of CraftStudio is that it's multiplayer, you can built any asset with several other people at the same time.*
+Below you can find the chat and to the right, the list of people that have the model opened (with whom you can discuss via the chat). *Remember that one of the main feature of CraftStudio is the multiplayer aspect, you can built any asset with several other people at the same time.*
 
 On the left, you will find the `Build`, `Paint` and `Animate` tabs which are the three tasks needed to build a model.
 
 
+<a name="build"></a>
 ## Build : assemble the blocks
 
 In CS, a model is only composed of blocks, which are always cuboid (rectangular parallelepiped). This limits how your model will look (in comparison with a model created in Blender or 3ds Max for instance) but cuboids are really simple to use, so that's great for newcomers (as well as anyone that is not a 3D modeler...).
@@ -65,14 +75,14 @@ To do that, you can either update the value of the position directly in the fiel
 It's the same principle to change the position on the other axis, as well as to change the other block's components (the rotation, size, pivot offset and scale).  
 Try different things to get used to it.
 
-Now we need to give the block the proper size but we don't know which size to give yet.  
+Now we need to give the block the proper size.  
 Click on the image of Steve above to view it at full size, then count the number of pixels on each block. Remember that the legs and arms have the same size and that the trunk is just twice as wide as an arm.
 
 - the head is 8x8x8 pixels
 - an arm or leg is 4x4x12 pixels
 - so the trunk is 8x4x12 pixels (8x12 for the front and back faces)
 
-It was important to count the pixels because in CS, the size of the model's blocks are expressed in `texture pixels`, or how much pixels will they take on the model's texture.
+It was important to count the pixels because in CS, the size of the model's blocks are expressed in `texture pixels`, or how much pixels they will take on the model's texture.
 
 In the left pane, click on the middle button, the one that says `Block size (C)`.  
 You can see that the values in the fields and the handles have changed.  
@@ -149,18 +159,19 @@ Absolutely ! But don't fear because it's already saved.
 Actually it saves all the time. Because of the multilayer aspect, all modifications are saved automatically and broadcasted to all players that have the asset opened.  
 That's great, right ?
 
-Yes, but you may have noticed that you can't undo what you did, the `Ctrl+Z` shortcut has no effect.
+Yes, but you may have noticed that you can't undo what you did, the `Ctrl+Z` shortcut has no effect !
 
-Hopefully, there is system of **revision**. A revision is a save of the asset. What's interesting is that you can replace the current version of your asset by restoring an old revision. This is the only way to undo something. 
+Hopefully, assets have a system of **revision** (a save of the asset). What's interesting is that you can replace the current version of your asset by restoring an old revision. This is the only way to undo something. 
 
 Create a revision by clicking the `Save` button (above the main window) (or `Ctrl+S`). Update the revision's name if you want.  
-You can click on the revision dropdown list (just next to the save button) to browse all revisions of this asset and click n one revision to visualize it.  
-To restore your asset to this revision, click on the `Restore` button.
+You can click on the revision dropdown list (just next to the save button) to browse all revisions of this asset and click on one revision to visualize it.  
+Click on the `Restore` button to restore your asset to this revision.
 
 A good practice is to create a revision after each important task you complete so that you don't loose to much if you have to undo something.
 
 
-## Paint : the texture
+<a name="paint"></a>
+## Paint : don't go over the edges
 
 <a href="http://craftstud.io" title="Go to CraftStudio's website">
     <img class="float-left" src="https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-models-animations/texture-panel.png" alt="CraftStudio logo" height="400px">
@@ -169,14 +180,14 @@ A good practice is to create a revision after each important task you complete s
 Before we head over to the `Paint` tab and begin to lay colors on Steve, you have some theory to learn.  
 So for now, create a new model, and just add a single block.  
 
-The left-bottom panel should looks like the image on the left. Before we paint the blocks faces on the texture we must give the correct size to the texture, depending on the layout you give the all the block's faces.
+The left-bottom panel should looks like the image. Before we paint the blocks faces on the texture we must give the correct size to the texture, depending on the layout you give the all the block's faces.
 
 Enlarge the panel by clicking and dragging the separation between it and the main window, then zoom with the mouse wheel while the mouse is over the texture.
 
 The `Sheet size` is the texture's size (the white area). You may increase it up to 2048x2048 pixels but in our case, it's not needed.  
 Now look at the texture. Depending if you have the block selected, you may see purple or red lines and maybe `Front` in red inside one of the face.  
 
-The lines is the cube's unwrap, it outlines the cube's faces. It's by painting inside each square that you will paint each face of each block.  
+The lines are the cube's unwrap, it outlines the cube's faces. It's by painting inside each square that you will paint each face of each block.  
 You can click inside each face and CS displays which face it is. 
 
 If you click and drag, you can also move the unwraps on the texture. And by playing with the row of buttons, you can change the unwraps direction and orientation. 
@@ -186,14 +197,14 @@ Set the mode to `Collapsed` in order to have all unwrap on top of each other, ea
 The last unwrap mode is `Custom`, it allows to move each face's unwrap individually.
 
 Now, go back to Steve's model. The texture is a little mess because the unwraps of all the blocks are on top of each other.  
-Separate them by clicking on each block (in the block's list) then by moving the unwrap (click and drag). We will just give the same texture to each arms and each leg, so you may put the unwrap for each arm and leg at the same position.  
+Separate them by clicking on each block (in the main window or the block's list) then by moving the unwrap (click and drag). We will just give the same texture to each arms and each leg, so you may put the unwrap for each arm and leg at the same position.  
 When you have finished, you should have a texture that looks like this :
 
 ![The unwraps are repositioned](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-models-animations/unwraps-repositioned.png "The unwraps are repositioned")
 
 And as you can see, the unwrap's shape and size match the block's size.
 
-That's esnough for the `Build` tab, go to the `Paint` tab !
+That's esnough for the `Build` tab, go to the `Paint` tab.
 
 The panel changed, you now have four buttons that we will call `Paint`, `Erase`, `Select` and `Move`.  
 Below you have the `Select color` button and the brush size's slider.  
@@ -208,13 +219,13 @@ The `Select` tool allows you to select part of the texture then copy/paste and/o
 Steve is nor white nor transparent so we have to put some color inside the unwraps. Start by selecting a color with the `Select color` button or by right-clicking on the texture then change the brush's size with the slider or `Ctrl + MouseWheel`.
 
 Apply the desired colors to the desired blocks, observe how it looks in the main window.  
-Try to reproduce Steve's look or be creative !
+Try to reproduce Steve's look, or be creative.
 
 Here is what I end up with after a couple of minutes :
 
 ![Steve texture](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-models-animations/steve-texture-1.png "Steve texture")
 
-Not bad ! But for the sake of this tutorial, we will improve the face and reproduce exactly Steve's face not by using the paint tool but by copy/pasting the whole face from an external image.
+Not bad ! But we will improve the face and reproduce exactly Steve's face not by using the paint tool but by copy/pasting the whole face from an external image.
 
 [We will use this image](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-models-animations/steve-face.png) but it is to big. Steve face measure 8x8 pixels while the image is 300x300 pixels.  
 
@@ -231,8 +242,92 @@ There you go ! We now have a nice model with a nice texture.
 Lets get him a nice animation, too !
 
 
+<a name="animate"></a>
 ## Animate : get the blocks moving
 
+Animations are the second type of asset we works with. They are not part of the model but are used by one or more models.
+
+They are used to move blocks over time so that the model appear to function or do something. We will create Steve's walk animation.  
+As for the block structure and the texture, the walk animation is pretty simple : 
+
+![Steve walks](http://fc08.deviantart.net/fs70/f/2012/118/8/5/walking_steve_by_jlaaag-d4xtc8v.gif "Steve walks")
+
+The only difference with the image is that the arms and legs are kept straight (they don't fold on the knee/elbow) and that the upper body don't tilt sideway.
+
+Save your model then go to the `Animate` tab.  
+
+![Animation panel](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-models-animations/animation-panel.png "Animation panel")
+
+First we need to create a new animation asset then link it to this model.  
+Click on the `+/-` button, the animations list opens. It is currently empty, so create a new one (as always, click on the button with a small `+`) and name it `Steve Walk`.
+
+The checkbox on the left of the cartridge show that this animation is linked to this model, it now appears in the drop-down list on the right of the `+/-` button.
+
+Animations being a separate asset, you can save them independently of models and yet they are not tied to a model, they are tied to a particular block hierarchy meaning that an animation will work with all models that have the same block hierarchy.
+
+An animation last a certain time, expressed in frames (default is 30 frames which equals to 1 second).   
+One way to create an animation would be to setup the position (and/or other characteristics) of a block for every frames, moving it a little every time, so that it appears to be moving while playing the animation. This is how cartoons were done, but this is also not practical at all.
+
+What we will actually do is setup a few **keyframes** (frames that hold a key importance), which are the frames where a block will have a terminal state and we will let CS **interpolate** the block's state in-between those keyframes.
+
+We will first animate an arm, then you will do the same for the other arm and the legs.  
+All we have to do is setup two keyframes : one where the arm is completely backward at the beginning of the animation and one were the arm is completely forward in the middle of the animation. CS will interpolate the movement from back to front then from front to back.
+
+Let the animation's duration at 30 frames, be sure that the `Frame` is on the first frame (completely to left, showing `0`).  
+Now click on one of the arm. We will work on the arm's rotation, so click on the orientation tool in the left panel, then on the `Add Keyframe` button.
+
+![Your first keyframe](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-models-animations/first-keyframe.png "Your first keyframe")
+
+Handles have appeared on the arm, allowing us to change the arm orientation. As we want the arm to rotate forward/backward, we need it to rotate around the red axis. Click on he red wheel then mouse the mouse up/down.
+
+And now you may have a situation...  
+The rotation center is in the middle of the arm and not at the top where the shoulder should be !
+
+This is something we have to fix first, you need to go back in the `Build` tab.  
+We will just move the point considered as the center of the block (**the pivot**) by changing the block's `pivot offset`.
+
+Select the left arm, then select the pivot offset tool (in the `Build` tab). Handles with a spherical end appears. They are centered on a pink sphere, this is the pivot.  
+Use the handle to lower the block so that the pivot is now at the very top of the block and appears in the center of the block's top face.
+
+![Pivot offset](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-models-animations/pivot-offset.png "Pivot offset")
+
+Now select the position tool and move the block back up. Do the same for the other arm and the legs and go back in the `Animate` tab.
+
+You see that the arm now rotates around its shoulder instead of its elbow.  
+Rotate the arm backward up to 40° (or whatever you want) and we are done with this first keyframe.
+
+Move the `Frame` slider to the 15th frame and while having the orientation tool selected, creates a new keyframe.
+
+![Second keyframe](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-models-animations/second-keyframe.png "Second keyframe")
+
+You can now rotate the arm again, rotate it at -40° for instance.  
+And that's it, the animation of this arm is over.
+
+You can move the `Frame` slider or click on the `Toggle Playback` button to observe the arm moving from back to front and then from front to back, as we wanted.
+
+If you check the `Hold last keyframe` checkbox, you see that the arm moves from back to front, stops for half a second, then moves without animation to the back (and repeat).  
+When this box isn't checked, the first keyframe is also considered as the last, so the block move back at its original state. Keep this box unchecked.
+
+The animation of the other arm and legs follows the same principle and procedure. Just remember that they move in an inverted manner : when he left arm in front, the right one is in back, but the right leg in also in front while the left leg is in back).  
+Also remember how to create a keyframe : move to the desired frame with the slider, select the desired tool, then create the keyframe. You may also have noticed that when a keyframe has been created, you can easily change its frame or remove it.
+
+Several animations can be linked to the same model, you choose which one you edit via the drop-down list at the top of the panel.  
+
+Which animation is played in-game is controlled by scripts. We will see how in a later chapter.
+
+
+<a name="conclusion"></a>
+## Conclusion
+
+3D models in CraftStudio are somewhat limited but it's what makes them really easy to build.  
+
+Models are made of cuboid blocks that you can reposition, rotate, resize and stretch.
+
+The texture determine how the blocks faces looks. Yet there is only very basic tools available to work on the texture, you can copy/paste from/to an external image/software.
+
+Another asset, an Animation, can be used to easily animate blocks and give life to the model by setting up a handfull of keyframes and letting CraftStudio handle the rest.
+
+The next tutorial will introduce you to two other assets that works together : the Map, used to created level geometry and the TileSet that controls how a map looks.
 
 [< CraftStudio introduction](introduction-to-craftstudio.md)  
 <div class="text-align-right">
