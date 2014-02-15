@@ -1,13 +1,18 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="robot" content="noindex, nofollow">
-        <meta name="description" content="A tutorial to built Minecraft with the cooperative game making platform CraftStudio.">
-        <meta name="keywords" content="CraftStudio, gamedev, game development, Minecraft, tutorial">
-        <meta name="author" content="">
+        <?php
+        if ( strpos( $indexUrl, "localhost" ) === false )
+            echo '<meta name="robot" content="index, follow">';
+        else
+            echo '<meta name="robot" content="noindex, nofollow">';
+        ?>
+        
+        <meta name="description" content="A series of tutorials that aim to built a Minecraft-like with with the cooperative game making platform CraftStudio.">
+        <meta name="keywords" content="CraftStudio, gamedev, game development, Minecraft, tutorial, florent, poujol">
 
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
-        <title><?php echo $pageTitle; ?> - CraftSting Minecraft in CraftStudio</title>
+        <title><?php echo $pageTitle; ?> - Crafting Minecraft in CraftStudio</title>
     </head>
     <body>
         <header>
@@ -24,5 +29,8 @@ else
         <footer>
             
         </footer>
+
+        <script language="javascript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script language="javascript" type="text/javascript" src="<?php echo $indexUrl; ?>scroll_minecraft.js"></script>
     </body>
 </html>

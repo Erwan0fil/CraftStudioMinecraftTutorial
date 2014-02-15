@@ -1,7 +1,9 @@
 [< Tutorial introduction](tutorial-introduction.md)  
-<div class="text-align-right">
+<div class="text-align-right next-tutorial-link">
 [Introduction to Models and Animations >](introduction-to-models-and-animations.md)
 </div>
+
+---
 
 # Introduction to CraftStudio
 
@@ -104,8 +106,9 @@ Once you clicked the button the project is added in the project list, between th
 
 To open the project, you can either click again on the button in the server's window that now says `Open`, or click on the project's button in the project list.
 
+---
 
 [< Tutorial introduction](tutorial-introduction.md)
-<div class="text-align-right">
+<div class="text-align-right next-tutorial-link">
 [Introduction to Models and Animations >](introduction-to-models-and-animations.md)
 </div>

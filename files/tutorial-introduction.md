@@ -3,6 +3,8 @@
 [Introduction to CraftStudio >](introduction-to-craftstudio.md)
 </div>
 
+---
+
 # Crafting Minecraft in CraftStudio: the Turorial
 
 In this tutorial, you will learn step-by-step how to use the game making software **CraftStudio** through the development of a Minecraft-like game.
@@ -64,8 +66,18 @@ Most of all, even if the scripts will be explained, it won't learn you how to co
 
 ## Work In Progress
 
-All these tutorials are work in progress, and are thus subject to change/improvements.  
-As I am not a native english speaker and despite I do my best, the tutorial contains some orthographic and grammatical errors.
+All these tutorials are in heavy work in progress, and are thus subject to change/improvements.  
+As I am not a native english speaker and despite my best efforts, the tutorials surely contains orthographic and grammatical errors, as well as wrong expressions.
+
+
+## Chapters
+
+- [Introduction to CraftStudio](introduction-to-craftstudio.md)
+- [Introduction to Models and Animations](introduction-to-models-and-animations.md)
+
+---
+
+<div></div>
 <div class="text-align-right">
 [Introduction to CraftStudio >](introduction-to-craftstudio.md)
 </div>

@@ -1,7 +1,9 @@
-[< CraftStudio introduction](introduction-to-craftstudio.md)  
-<div class="text-align-right">
-[Introduction to Maps and TileSets >](introduction-to-maps-and-tilesets.md)
+[< Introduction to CraftStudio](introduction-to-craftstudio.md)  
+<div class="text-align-right next-tutorial-link">
+Introduction to Maps and TileSet >
 </div>
+
+---
 
 # Introduction to Models and Animations
 
@@ -245,12 +247,12 @@ Lets get him a nice animation, too !
 <a name="animate"></a>
 ## Animate : get the blocks moving
 
+<img src="http://fc08.deviantart.net/fs70/f/2012/118/8/5/walking_steve_by_jlaaag-d4xtc8v.gif" height="200px" alt="Steve walks" title="Steve walks" class="float-left">
+
 Animations are the second type of asset we works with. They are not part of the model but are used by one or more models.
 
 They are used to move blocks over time so that the model appear to function or do something. We will create Steve's walk animation.  
 As for the block structure and the texture, the walk animation is pretty simple : 
-
-![Steve walks](http://fc08.deviantart.net/fs70/f/2012/118/8/5/walking_steve_by_jlaaag-d4xtc8v.gif "Steve walks")
 
 The only difference with the image is that the arms and legs are kept straight (they don't fold on the knee/elbow) and that the upper body don't tilt sideway.
 
@@ -286,10 +288,10 @@ The rotation center is in the middle of the arm and not at the top where the sho
 This is something we have to fix first, you need to go back in the `Build` tab.  
 We will just move the point considered as the center of the block (**the pivot**) by changing the block's `pivot offset`.
 
+<img src="https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-models-animations/pivot-offset.png" height="150px" alt="Pivot offset" title="Pivot offset" class="float-right">
+
 Select the left arm, then select the pivot offset tool (in the `Build` tab). Handles with a spherical end appears. They are centered on a pink sphere, this is the pivot.  
 Use the handle to lower the block so that the pivot is now at the very top of the block and appears in the center of the block's top face.
-
-![Pivot offset](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-models-animations/pivot-offset.png "Pivot offset")
 
 Now select the position tool and move the block back up. Do the same for the other arm and the legs and go back in the `Animate` tab.
 
@@ -329,7 +331,9 @@ Another asset, an Animation, can be used to easily animate blocks and give life 
 
 The next tutorial will introduce you to two other assets that works together : the Map, used to created level geometry and the TileSet that controls how a map looks.
 
-[< CraftStudio introduction](introduction-to-craftstudio.md)  
-<div class="text-align-right">
-[Introduction to Maps and TileSets >](introduction-to-maps-and-tilesets.md)
+---
+
+[< Introduction to CraftStudio](introduction-to-craftstudio.md)
+<div class="text-align-right next-tutorial-link">
+Introduction to Maps and TileSet >
 </div>

@@ -9,10 +9,8 @@ Plan :
     - go more in-depth with interface and project creation ?    
 
 - Intro to Models and Animations : Character model + walk animation
-    - Describing the interface
-    - Creating a Minecraft character (6 blocks + texture)
-    - Creating a walk animation
-    - talking about importing assets
+    - fixes from feedback
+    - more little screenshots (for buttons)
 
 - Intro to Maps and TileSet
     - creating a small tileset with the grass and ground texture
