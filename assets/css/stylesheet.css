@@ -1,63 +1,75 @@
 @import url(http://fonts.googleapis.com/css?family=Poly|Droid+Sans);
 
 body {
-    width: 800px;
-    margin: auto;
-    font-family: 'Poly', 'Droid Sans';
+  width: 800px;
+  margin: auto;
+  font-family: 'Poly', 'Droid Sans';
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 p, a {
-    font-size:1.1em;
+  font-size:1.1em;
+}
+
+p {
+  line-height: 1.5em;
 }
 
 footer {
-    color: rgb(200,200,200);
+  color: rgb(200,200,200);
 }
 
 .float-left {
-    float: left;
-    margin: 5px;
+  float: left;
+  margin: 5px;
 }
 .float-right {
-    float: right;
-    margin: 5px;
+  float: right;
+  margin: 5px;
 }
 
 .text-align-right {
-    text-align: right;
+  text-align: right;
 }
 
 .next-tutorial-link {
-    margin-top: -35px;
+  margin-top: -45px;
 }
 
 
-/* to top button */
-#toTop
-{
-    display:none;
-    padding:0.2em 0.5em 0.05em 0.5em;
-    padding:0.5em;
-    position:fixed;
-    top: inherit;
-    right:1.2em;
-    bottom: 1.2em;
-    background-color:#777;
-    text-align:center;
-    color:#fff;
-    text-decoration:none;
-    text-transform:uppercase;
-    font-size:0.8em;
-    border-radius:3px;
+/* back to top button */
+
+#toTop {
+  display:none;
+  text-decoration:none;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  overflow:hidden;
+  width:51px;
+  height:51px;
+  border:none;
+  text-indent:100%;
+  background:url(../img/ui.totop.png) no-repeat left top;
 }
 
-#toTop:hover
-{
-    background-color:#E3591E;
+#toTopHover {
+  background:url(../img/ui.totop.png) no-repeat left -51px;
+  width:51px;
+  height:51px;
+  display:block;
+  overflow:hidden;
+  float:left;
+  opacity: 0;
+  -moz-opacity: 0;
+  filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+  outline:none;
 }
 
 
@@ -79,17 +91,17 @@ span.backtick {
 
 
 p{
-margin:1em 0;
+  margin:1em 0;
 }
 
 img{
-max-width:100%;
+  max-width:100%;
 }
 
 h1,h2,h3,h4,h5,h6{
-font-weight:normal;
-color:#111;
-line-height:1em;
+  font-weight:normal;
+  color:#111;
+  line-height:1em;
 }
 h4,h5,h6{ font-weight: bold; }
 h1{ font-size:2.3em; }
@@ -100,10 +112,10 @@ h5{ font-size:1em; }
 h6{ font-size:0.9em; }
 
 blockquote{
-color:#666666;
-margin:0;
-padding-left: 2em;
-border-left: 0.5em #EEE solid;
+  color:#666666;
+  margin:0;
+  padding-left: 2em;
+  border-left: 0.5em #EEE solid;
 }
 hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
 
