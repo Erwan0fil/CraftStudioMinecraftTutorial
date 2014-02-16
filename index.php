@@ -40,15 +40,15 @@ else // index, redirect toward default path
 $pathInfo = pathinfo( $path );
 
 if (isset($pathInfo['extension']) && $pathInfo['extension'] == "md") {
-// remove the file extension in the url
+    // remove the file extension in the url
     $dirname = $pathInfo['dirname']."/";
     if ($dirname == "./")
         $dirname = "";
+    
     header( "Location: ".$indexUrl.$dirname.$pathInfo['filename']);
-
 }
 
-$pageTitle = ucwords( $pathInfo['filename'] );
+$pageTitle = ucwords( str_replace( "-", " ", $pathInfo['filename'] ) );
 
 $filePath = $markdownFilesPath."/".$path;
 

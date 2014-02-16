@@ -8,21 +8,51 @@
 # Introduction to CraftStudio
 
 In this chapter, you will learn more about the CraftStudio ecosystem, how to install the editor and create a project.  
-From now on "CraftStudio" is abreviated "CS" throughout the tutorial.
+From now on "CraftStudio" is abbreviated "CS" throughout the tutorial.
+
+- [Brief history of CraftStudio](#history)
+- [CraftStudio's Community](#community)
+- [Installing CraftStudio](#install)
+- [First steps in the editor (client)](#first-step)
+- [Creating a project](#create-project)
 
 
+<a name="history"></a>
+## Brief history of CraftStudio
+
+After a few years as a programmer in the game industry, Elisée Maurer started the development of CraftStudio in fall 2011 with one goal in mind : making game development as simple and fun ans social as possible.
+
+First video on [CraftStudio's channel](http://www.youtube.com/user/craftstudiodev) :
+<iframe width="640" height="360" src="//www.youtube.com/embed/KA_AhtkmRYQ" frameborder="0" allowfullscreen></iframe>
+
+A crowdfunding campaign [was successfully run on Indiegogo](http://www.indiegogo.com/projects/craftstudio-real-time-collaborative-game-making) in March 2012, raising more than 23000$ yet at that time only a windows-only, pre-alpha version was working with no real possibilities to create games since you coulnd't create scripts yet.  
+
+<iframe width="640" height="360" src="//www.youtube.com/embed/BFVsgFsLzdQ" frameborder="0" allowfullscreen></iframe>
+
+In November 2012, CraftStudio was showcased at this year's MineCon in Paris (Minecraft convention). [MineMatcher](http://play.craftstud.io/games/MineMatcher), and CraftFighter (trailer below) were both created by members of the community for the occasion.
+
+<iframe width="640" height="360" src="//www.youtube.com/embed/TjpW-K70WwM" frameborder="0" allowfullscreen></iframe>
+
+The CraftStudio's Beta came out in March 2013 with major new features.  
+CraftStudio is since then still in beta but regularly benefits from new features and fixes.
+
+
+<a name="community"></a>
 ## CraftStudio's community
 
 This tutorial is obviously not the only resource where you can look for information and help.
 
 **[The official wiki](http://learn.craftstud.io)** contains several tutorials as well the obligatory [scripting reference](http://learn.craftstud.io/Reference/Scripting). You might want to bookmark it, as there are chances that you will consult it rather frequently.  
-If you are not confident reading the wiki in english, you should know that it may have been translated to some extends by members of the community (you can change the language at the bottom of the page).
+If you are not confident reading the wiki in English, you should know that it may have been translated to some extends by members of the community (you can change the language at the bottom of the page).
+
+[Don't neglect the old wiki](http://craftstudio.wikia.com/wiki/CraftStudio_Wiki) which still contains a lot of great resources.
 
 If you have particular questions that are not answered by the wiki or this tutorial, **[the forum](http://www.craftstudioforums.net/index.php?forum/)** is the next best place to look for answers.
 
-If you are interested in the development of CraftStudio, you may be interested to [follow Elisée (the creator of CraftStudio) on Twitter](https://twitter.com/craftstudiodev).
+If you are interested in the development of CraftStudio, you may be interested to [follow @CraftSudioDev on Twitter](https://twitter.com/craftstudiodev).
 
 
+<a name="install"></a>
 ## Installing CraftStudio
 
 ### A little terminology first
@@ -33,7 +63,7 @@ The **Launcher** is where you log-in with your account and it automatically chec
 
 The Client (that I call the **Editor**) is the software that you use to create all the assets and the games. It is launched by the launcher when it has finished updating but you can also open it directly.
 
-The **Server** is what hosts the projects that you create with the editor. By defaul, a local server is launched at the same time as the client so you can just create projects localy on your computer, but the server can be remote.
+The **Server** is what hosts the projects that you create with the editor. By default, a local server is launched at the same time as the client so you can just create projects locally on your computer, but the server can be remote.
 
 The **Server Manager** is used to configure, start and stop the server.
 
@@ -46,29 +76,30 @@ The **Assets** are the game's components. It's what you create and assemble in a
 
 ### Free vs Premium
 
-CraftStudio comes with a free or a paid premium licence and you can upgrade from free to premium at any time very easily.
+CraftStudio comes with a free or a paid premium license and you can upgrade from free to premium at any time very easily.
 
-The free licence let's you create any number of projects and any kind of assets (except scripts).  
+The free license let's you create any number of projects and any kind of assets (except scripts).  
 But you can't create script assets, you can't export or import assets from/to your projects and you can't export your game.  
-The "only thing" the licence allows you to do is create stuffs, not testing themIt still gives you hours of fun and creation but you will quickly be pretty limited with the free licence if you want to pratice for real while following this tutorial.
+The "only thing" the license allows you to do is create stuffs, not testing themIt still gives you hours of fun and creation but you will quickly be pretty limited with the free license if you want to practice for real while following this tutorial.
 
-The premium (or full) licence let's you do anything including creating scripts, exporting/importing assets from/to your projects and especially exporting your game.  
+The premium (or full) license let's you do anything including creating scripts, exporting/importing assets from/to your projects and especially exporting your game.  
 It can be purchased for 20 euros (while in Beta) on CraftStudio's website.
 
 
-### Dowload and install
+### Download and install
 
-First [create an account on CraftStudio's website](http://craftstud.io/login). This account is mostlly used to log in CraftStudio, so be wise with the name you choose.
+First [create an account on CraftStudio's website](http://craftstud.io/login). This account is mostly used to log in CraftStudio, so be wise with the name you choose.
 
 Then [download](http://craftstud.io/download) or [purchase](http://craftstud.io/purchase).
 
 Proceed to the installation like with any other software. Note that the location you can choose only apply for the Launcher. The editor, server and runtimes are always installed in the same directory (`C:\Users\ [your user name]\AppData\Roaming\CraftStudio` on Windows).  
 
 The icon that may have been created will open the launcher. Once logged in, you only need to open the launcher to update CraftStudio.  
-If you [follow Elisée (the creator of CraftStudio) on Twitter](https://twitter.com/craftstudiodev) or the #CraftStudio hastag, you will know when an update is available.    
+If you [follow @CraftSudioDev on Twitter](https://twitter.com/craftstudiodev) or the #CraftStudio hashtag, you will know when an update is available.    
 So if you want you can open the editor directly by pointing at (`C:\Users\ [your user name]\AppData\Roaming\CraftStudio\CraftStudioClient\CraftStudioClient.exe` on Windows).
 
 
+<a name="first-step"></a>
 ## First steps in the editor (client)
 
 ### Breakdown of the interface
@@ -90,24 +121,32 @@ Below the is the `Settings` and `My Server` buttons. This last button opens the 
 Finally you will find at the bottom of the column the online status indicator (click to toggle online state), the number of online players (click to refresh) and the editor's version number (click to open the `About` window).  
 You can perfectly use CraftStudio when you are offline, but you won't be able to chat with your friends and you won't be able to connect to servers which require authentication so you won't be able to access the projects on those servers.  
 
-**If you have to use CraftStudio offline** (because you don't have internet or because the ports used by the CS master server or other servers are blocked), you need to disable the authentication on your local server : click on the `My Server` button, go to the `Settings` tab then click on `Disabled`. Go back to the `Server Status` tab then stop the server and start it again.
+**If you have to use CraftStudio offline** (because you don't have Internet or because the ports used by the CS master server or other servers are blocked), you need to disable the authentication on your local server : click on the `My Server` button, go to the `Settings` tab then click on `Disabled`. Go back to the `Server Status` tab then stop the server and start it again.
 
-You can change the projects list/friends list size by dragging the separation between the two. You will often be able to change a window's size by dragging a separation betweenit and another component of the interface.  
-You can hide/display the left column by clicking just to the right of it (that's very usefull on small screens).
+You can change the projects list/friends list size by dragging the separation between the two. You will often be able to change a window's size by dragging a separation between it and another component of the interface.  
+You can hide/display the left column by clicking just to the right of it (that's very useful on small screens).
 
 #### Community Projects
 
+Clicking on the orange tab at the top of the left column changes the main interface to display the community projects.  
+This is basically the list of almost all projects hosted on live CS servers, including your local server.  
+Only the project whose membership policy is `Invite-only` are not listed.
+
+#### Help & Resources
+
+This tab gathers a few links to tutorials an other resources on the wiki to help you get started with creating a game.
 
 
-### Creating a project
+<a name="create-project"></a>
+## Creating a project
 
-Click on `Add or create project...` at the bottom of the project list.
+Click on the `Add or create project...` button at the bottom of the project list.
 
 ![Interface to connect to a server](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/craftstudio-introduction/server-connect-window.png "Interface to connect to a server")  
-Remember that CS projects are all hosted on a server and that a local server was installed with CS and is launched (along with the server manager) when the editor is launched itself.
+Remember that CS projects are all hosted on a server and that a local server was installed with CS and is launched along the editor (and the server manager).
 
 To create a project and/or add a project to your project list, you first need to connect to a server. That's what this windows allows you to do.  
-Don't change anything as we want to connect to our own local server. Just click on `Connect`.
+Don't change anything as we want to connect to our own local server. Just click on the `Connect` button.
 
 ![Interface of a server you are connected to](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/craftstudio-introduction/server-interface.png "Interface of a server you are connected to")  
 The window that opens lets you see the projects hosted on the server.  
@@ -116,7 +155,13 @@ Click on `Create new project...`
 
 ![Interface to crete a new project](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/craftstudio-introduction/create-project-interface.png "Interface to crete a new project")  
 This new window lets you create a new project on the server you are connected to.  
-For now, just enter a name (you will be able to update it later on) and change the `Membership policy` to `Invite-only` then click on `Create`.
+For now, just enter a name (you will be able to update it later on) and change the `Membership policy` to `Invite-only` (so that your project become private) then click on `Create`.
+
+Projects have one of the three Membership policy :
+
+- Open (public) : anyone con join without approval
+- Approval required : anyone can ask to join the project, and be approved or disapproved by the project's administrator(s)
+- Invite-only (private) : the project does shows up in the Community Projects, and is only visible in the server's projects list if you are an administrator on this server.
 
 ![Add project to list](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/craftstudio-introduction/add-to-list.png "Add project to list")  
 Now you are back on the server's project list and your newly created project is now visible.  
@@ -125,8 +170,8 @@ As you can see the cartridge recap the project's name, description, membership p
 Click on the button in the top-right corner that says `Add to my list` to add this project to your editor's projects list.  
 Once you clicked the button the project is added in the project list, between the Community Hub project and the `Add or create project...` button.
 
-You can move a project up/down in the editor's projets list by clicking and dragging its cartridge.  
-You can also remove a project from the project list by clicking on the bin the appears when the mouse hovers the cartridge and the project is not opened in the editor. *Removing a project from the projects list does not remove or delete the project from the server.*
+You can move a project up/down in the editor's projects list by clicking and dragging its cartridge.  
+You can also remove a project from the project list by clicking on the bin that appears when the mouse hovers the cartridge and the project is not opened in the editor. *Removing a project from the projects list does not remove or delete the project from the server.*
 
 To open the project, you can either click again on the button in the server's window that now says `Open`, or click on the project's button in the project list.
 

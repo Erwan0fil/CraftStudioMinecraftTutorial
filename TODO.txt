@@ -6,6 +6,7 @@ Plan :
     - Finish MineCraft and last paragraph, makes screenshots
 
 - Intro to the CraftStudio
+    - history : talk about other Jam games
     - go more in-depth with interface and project creation ?    
 
 - Intro to Models and Animations : Character model + walk animation
