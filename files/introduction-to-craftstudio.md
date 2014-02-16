@@ -71,11 +71,32 @@ So if you want you can open the editor directly by pointing at (`C:\Users\ [your
 
 ## First steps in the editor (client)
 
-![CraftStudio's editor (client)](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/craftstudio-introduction/editor-interface.png "The interface of CraftStudio's editor")
+### Breakdown of the interface
 
-What's interresting for now is mostly the project's list (the blurred area, to the left) and the friends list below it.
+<img src="https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/craftstudio-introduction/editor-interface.png" alt="CraftStudio's editor (client)" class="img-hover">
+Mose the mouse over the image.
 
-The project list is jut the list of the projects that the client is aware of
+#### Left column
+
+First look at the left column. At the top, you have a row of buttons `Home` (currently selected), `Store`, `Community Projects` and `Help & Resources`.
+
+Below you have the projects list with always one project that you can't remove: the Community Hub.  
+We will see below how to add projects to the list. 
+
+Below the projects list you will find your friends list. Being friend with other CraftStudio users just allows you to chat together through CraftStudio.
+
+Below the is the `Settings` and `My Server` buttons. This last button opens the Server Manager which allows you to manage your local server.
+
+Finally you will find at the bottom of the column the online status indicator (click to toggle online state), the number of online players (click to refresh) and the editor's version number (click to open the `About` window).  
+You can perfectly use CraftStudio when you are offline, but you won't be able to chat with your friends and you won't be able to connect to servers which require authentication so you won't be able to access the projects on those servers.  
+
+**If you have to use CraftStudio offline** (because you don't have internet or because the ports used by the CS master server or other servers are blocked), you need to disable the authentication on your local server : click on the `My Server` button, go to the `Settings` tab then click on `Disabled`. Go back to the `Server Status` tab then stop the server and start it again.
+
+You can change the projects list/friends list size by dragging the separation between the two. You will often be able to change a window's size by dragging a separation betweenit and another component of the interface.  
+You can hide/display the left column by clicking just to the right of it (that's very usefull on small screens).
+
+#### Community Projects
+
 
 
 ### Creating a project
@@ -83,7 +104,7 @@ The project list is jut the list of the projects that the client is aware of
 Click on `Add or create project...` at the bottom of the project list.
 
 ![Interface to connect to a server](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/craftstudio-introduction/server-connect-window.png "Interface to connect to a server")  
-Remember that CS projects are all hosted on a server and that a local server was installed with CS and is launched (allong with the server manager) when the editor is launched itself.
+Remember that CS projects are all hosted on a server and that a local server was installed with CS and is launched (along with the server manager) when the editor is launched itself.
 
 To create a project and/or add a project to your project list, you first need to connect to a server. That's what this windows allows you to do.  
 Don't change anything as we want to connect to our own local server. Just click on `Connect`.
@@ -103,6 +124,9 @@ As you can see the cartridge recap the project's name, description, membership p
 
 Click on the button in the top-right corner that says `Add to my list` to add this project to your editor's projects list.  
 Once you clicked the button the project is added in the project list, between the Community Hub project and the `Add or create project...` button.
+
+You can move a project up/down in the editor's projets list by clicking and dragging its cartridge.  
+You can also remove a project from the project list by clicking on the bin the appears when the mouse hovers the cartridge and the project is not opened in the editor. *Removing a project from the projects list does not remove or delete the project from the server.*
 
 To open the project, you can either click again on the button in the server's window that now says `Open`, or click on the project's button in the project list.
 

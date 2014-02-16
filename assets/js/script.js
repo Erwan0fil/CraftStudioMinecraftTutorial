@@ -3,14 +3,14 @@ $(document).ready(function() {
     $().UItoTop({ scrollSpeed: 500 });
 
     // swap images
-    $('.img-swap-hover').on({
+    $('.img-hover').on({
         'mouseover' : function() {
             var path = $(this).attr('src');
-            $(this).attr('src', path.replace( '.', '-swap.' ) );
+            $(this).attr('src', path.replace( '.png', '-hover.png' ) );
         },
         mouseout : function() {
             var path = $(this).attr('src');
-            $(this).attr('src', path.replace( '-swap.', '.' ) );
+            $(this).attr('src', path.replace( '-hover.', '.' ) );
         }
     });
 
