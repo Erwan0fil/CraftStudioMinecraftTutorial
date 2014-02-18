@@ -19,9 +19,9 @@
 
         </header>
 <?php
-if ( endsWith( $filePath, ".md" ) )
+if ( EndsWith( $filePath, ".md" ) )
     echo Michelf\Markdown::defaultTransform( file_get_contents( $filePath ) );
-elseif ( endsWith( $filePath, ".php" ) )
+elseif ( EndsWith( $filePath, ".php" ) )
     include $filePath;
 else
     echo file_get_contents( $filePath );
