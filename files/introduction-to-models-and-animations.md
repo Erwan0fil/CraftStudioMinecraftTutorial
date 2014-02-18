@@ -163,7 +163,7 @@ That's great, right ?
 
 Yes, but you may have noticed that you can't undo what you did, the `Ctrl+Z` shortcut has no effect !
 
-Hopefully, assets have a system of **revision** (a save of the asset). What's interesting is that you can replace the current version of your asset by restoring an old revision. This is the only way to undo something. 
+Thankfully, assets have a system of **revision** (a save of the asset). What's interesting is that you can replace the current version of your asset by restoring an old revision. This is the only way to undo something. 
 
 Create a revision by clicking the `Save` button (above the main window) (or `Ctrl+S`). Update the revision's name if you want.  
 You can click on the revision dropdown list (just next to the save button) to browse all revisions of this asset and click on one revision to visualize it.  

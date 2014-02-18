@@ -3,11 +3,11 @@ Title : Crafting Minecraft in CraftStudio
 Plan :
 
 - Intro to CS and Daneel
-    - Finish MineCraft and last paragraph, makes screenshots
+    - fixes from feedback
 
 - Intro to the CraftStudio
     - history : talk about other Jam games
-    - go more in-depth with interface and project creation ?    
+    - fixes from feeback
 
 - Intro to Models and Animations : Character model + walk animation
     - fixes from feedback

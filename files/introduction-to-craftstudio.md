@@ -20,7 +20,7 @@ From now on "CraftStudio" is abbreviated "CS" throughout the tutorial.
 <a name="history"></a>
 ## Brief history of CraftStudio
 
-After a few years as a programmer in the game industry, Elisée Maurer started the development of CraftStudio in fall 2011 with one goal in mind : making game development as simple and fun ans social as possible.
+After a few years as a programmer in the game industry, Elisée Maurer started the development of CraftStudio in fall 2011 with one goal in mind : making game development as simple, fun and social as possible.
 
 First video on [CraftStudio's channel](http://www.youtube.com/user/craftstudiodev) :
 <iframe width="640" height="360" src="//www.youtube.com/embed/KA_AhtkmRYQ" frameborder="0" allowfullscreen></iframe>
