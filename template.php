@@ -32,5 +32,9 @@ else
 
         <script language="javascript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
         <script language="javascript" type="text/javascript" src="<?php echo $indexUrl; ?>assets/js/script.js"></script>
+        <?php 
+        if ( strpos( $indexUrl, "localhost") === false )
+            include "piwik.php";
+        ?>
     </body>
 </html>
