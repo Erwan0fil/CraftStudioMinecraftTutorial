@@ -85,13 +85,28 @@ One last thing you have to learn to master map building in CraftStudio is how to
 
 Go to the `Mapping` tab.
 
-In addition to the blocks texture and shape, you can set one of the four the block orientation among the four available orientations : `North`, `East`, `South` and `West`.  
+In addition to the blocks texture and shape, you can set the block orientation among the four available : `North`, `East`, `South` and `West`.  
 Click on one of the buttons with the initial of the orientation then lay the blocks in the main window as usual.
 
 Placing blocks one by one is simple and it works, but it's long even with a team effort (something that CraftStudio allow you to do, remember ?).  
-CS allows you to create an area that you can completely fill or empty at the push a single button.
+To ease with this process, CS allows you to create an area that you can completely fill or empty at the push a single button.
 
-Click on the button that looks like a dotted square.
+Click on the button that looks like a dotted square (the same as for the selection tool in the `Paint` tab) then left click somewhere in the main window and drag with the mouse.
+
+![Area selection tool](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-maps-tilesets/selection-area.png "Area selection tool")
+
+Now you can click on the buttons just above the blocks list to fill the area with the selected block or empty the area.
+
+Sweet, but it's actually kind if difficult to control the dimensions of the area with just the mouse.  
+The best way to do it is to move (with WASDQE) while having the left mouse button down.
+
+Try to create a big flat chunk. : once you clicked the first time, move sideway and backward to widen the area.  
+When you got one big enough, fill it by clicking on the button that looks like the paint pot (the one on the left, that appeared when you selected the selection area tool).
+
+![A big chunk of map created in seconds](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-maps-tilesets/area-filled.png "A big chunk of map created in seconds")
+
+## Map block coordinates
+
 
 
 ---
