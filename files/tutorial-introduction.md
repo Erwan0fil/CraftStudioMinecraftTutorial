@@ -70,7 +70,7 @@ All these tutorials are in heavy work in progress, and are thus subject to chang
 As I am not a native english speaker and despite my best efforts, the tutorials surely contains orthographic and grammatical errors, as well as wrong expressions.
 
 
-## Chapters
+## Table of content
 
 - [Introduction to CraftStudio](introduction-to-craftstudio.md)
 - [Introduction to Models and Animations](introduction-to-models-and-animations.md)

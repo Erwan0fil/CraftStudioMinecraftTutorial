@@ -14,10 +14,7 @@ Plan :
     - more little screenshots (for buttons)
 
 - Intro to Maps and TileSet
-    - creating a small tileset with the grass and ground texture
-    - building a small test map
-    - difference between map coordinate and world coordinate
-    - talking a little about modifying maps via scripts
+    - redo the screenshots to use the same tileset
 
 - Intro to Scenes and Scripts
     - theory about game obects and components + describing components
