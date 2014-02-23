@@ -40,6 +40,13 @@ footer {
   margin-top: -45px;
 }
 
+.info {
+  padding: 10px;
+  background-color: rgb(100,150,255);
+  border-radius: 5px;
+  color: white;
+}
+
 
 /* back to top button */
 

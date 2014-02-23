@@ -1,6 +1,6 @@
 [< Introduction to Models and Animations](introduction-to-models-and-animations.md)  
 <div class="text-align-right next-tutorial-link">
-<p>Introduction to Scenes and Scripts ></p>
+<p>Introduction to Scenes ></p>
 </div>
 
 ---
@@ -15,14 +15,25 @@ The tile set define how those blocks looks, how they are shaped and textured.
 
 In the project's home, go to the `Maps` tab and create a new map asset.
 
-The new maps opens. If you look closely, the interface is not so different than the model's : there is a `Save` button, there is the chat, there is a black main window and a left column. In this column, you can find familiar terms like `Sheet size` or `Unwrap mode`.  
+The new maps opens. If you look closely, the interface is not so different than the model's : there is a `Save` button, there is the chat, there is a black main window and a left column in which you can find familiar terms like `Sheet size` or `Unwrap mode`.  
 Some of what you learned during the creation of Steve's model and animation will also be useful with maps and tile sets.
 
+- [Building levels, Minecraft-style](#building)
+- [Painting](#painting)
+- [Mapping](#mapping)
+- [Map block coordinates](#map-block-coordinates)
+- [Conclusion](#conclusion)
+
+
+<a name="building"></a>
 ## Building levels, Minecraft-style
 
 First we need to create a new tile set : proceed exactly like for the animation. Click on the `+/-` button, then create the new tile set with the name you want and a tile size of 16.  
 As for the model block, a tile size of 16 means that the map blocks texture will be 16 pixels wide (when they have the shape of a cube).  
+
+<div class="info">
 Map blocks with a tile size of 16 have the exact same size as models with a block size of 16 in all axis.
+</div>
 
 Here is how the interface should looks like now :
 
@@ -31,7 +42,7 @@ Here is how the interface should looks like now :
 One white block has appeared in the map. 
 If you focus the main window, a purple cube outline follows the mouse and outlines any cubes the mouse hovers.
 
-Building a map will sounds familiar because it works exactly like in Minecraft : left click and a block appears inside the purple outline, right click over a block and it disappear. Left click over a block and a new one appear just next to the face the mouse hovered.
+Building a map will sounds familiar because it works pretty much like in Minecraft : left click and a block appears inside the purple outline, right click over a block and it disappear. Left click over a block and a new one appear just next to the face the mouse hovered.
 
 This is how you place blocks one by one. Don't forget you can move in the main window with WASDQE/middle mouse.  
 We will see later a way to fill whole areas but for now we will mostly work on the tile set.
@@ -48,6 +59,7 @@ The blocks are cube by default but you can select any of the shapes in the `Shap
 Since we are building a Minecraft-like, cubes are fine.
 
 
+<a name="painting"></a>
 ## Painting
 
 No surprise here, it's exactly the same principle as for models.  
@@ -55,14 +67,14 @@ You can change each block's `Unwrap mode` from the `Blocks` tab and paint them f
 
 For now we will paint three blocks : grass, dirt and stone.  
 Stone and dirt are easy to do : it's the same grayish and brownish texture on all six faces of the cube.  
-The dirt is a little different since the top face is greenish, the bottom has the same dirt texture and all side faces have the same dirt texture too but some green at the top.
+The dirt is a little different since the top face is greenish, the bottom has the same dirt texture and all side faces have the same dirt texture too but with some green at the top.
+
+<img src="https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-maps-tilesets/grass-block-unwraps.png" alt="Grass block unwraps" title="Grass block unwraps" class="float-right">
 
 The first block with ID 0 will be our grass block. This block uses three different textures, so set the unwrap mode to custom.  
 We need the top and bottom face to use their own space on the texture. The front, left, back and right faces share a third space.
 
 Select the first block in the blocks list then set its unwrap mode to `Full`, then to `Custom` and dispatch the outlines as needed.
-
-![Grass block unwraps](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-maps-tilesets/grass-block-unwraps.png "Grass block unwraps")
 
 Before setting the other blocks unwraps, I suggest we paint these first so that we easily see which part of the texture is dedicated to which block.  
 
@@ -82,6 +94,7 @@ Painting the stone block should just require you to select the block with ID 2, 
 ![Grass, dirt and stone blocks](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-maps-tilesets/grass-dirt-stone.png "Grass, dirt and stone blocks")
 
 
+<a name="mapping"></a>
 ## Mapping
 
 One last thing you have to learn to master map building in CraftStudio is how to rotate blocks and how to create or remove big chunks of blocks.  
@@ -106,15 +119,16 @@ Now you can click on the buttons just above the blocks list to fill the area wit
 That's sweet, but it's actually kind of difficult to control the dimensions of the area with just the mouse.  
 The best way to do it is to move (with WASDQE) while having the left mouse button down.
 
-Try to create a big flat chunk. : once you clicked the first time, move sideway and backward to widen the area.  
+Try to create a big flat chunk : once you clicked the first time, move sideway and backward to widen the area.  
 When you got one big enough, just fill it with the grass block.
 
 ![A big chunk of map created in seconds](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-maps-tilesets/area-filled.png "A big chunk of map created in seconds")
 
 
+<a name="map-block-coordinates"></a>
 ## Map block coordinates
 
-You may have notice the little cartridge at the bottom-left of the main window.  
+You may have noticed the little cartridge at the bottom-left of the main window.  
 It displays the map coordinates of the currently outlined block.
 
 Map coordinates will always be integers and do not depends on the tile size of the tile set.  
@@ -127,14 +141,15 @@ And if the game object is rotated (its Euler angles are not {0,0,0}), you have t
 The next tutorial explains what a Scene and a game object are.
 
 
+<a name="conclusion"></a>
 ## Conclusion
 
-Maps are pretty simple to grasp : they are best used to create big static structures like landscape or building.  
+Maps are pretty simple to grasp : they are best used to create big static structures like landscape or buildings.  
 
 The Map asset is basically a list of blocks while the Tile Set define how the blocks looks.
 
 One of the great feature of maps is their capacity to be modified by script, at runtime (when the game is running).  
-This is actually the feature that will be extensively used by the digging/building mechanism that made Minecraft so popular.
+This is actually the feature that will be extensively used by the digging/building/random map mechanisms that made Minecraft so popular.
 
 The next tutorial will introduce you the Scene asset, where all other assets are combined to create the actual 3D world you play in.
 
@@ -142,5 +157,5 @@ The next tutorial will introduce you the Scene asset, where all other assets are
 
 [< Introduction to Models and Animations](introduction-to-models-and-animations.md)  
 <div class="text-align-right next-tutorial-link">
-<p>Introduction to Scenes and Scripts ></p>
+<p>Introduction to Scenes ></p>
 </div>

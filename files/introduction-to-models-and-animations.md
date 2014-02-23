@@ -1,6 +1,6 @@
 [< Introduction to CraftStudio](introduction-to-craftstudio.md)  
 <div class="text-align-right next-tutorial-link">
-<p>Introduction to Maps and TileSet ></p>
+[Introduction to Maps and TileSets >](introduction-to-maps-and-tilesets.md)
 </div>
 
 ---
@@ -335,5 +335,5 @@ The next tutorial will introduce you to two other assets that works together : t
 
 [< Introduction to CraftStudio](introduction-to-craftstudio.md)
 <div class="text-align-right next-tutorial-link">
-<p>Introduction to Maps and TileSet ></p>
+[Introduction to Maps and TileSets >](introduction-to-maps-and-tilesets.md)
 </div>
