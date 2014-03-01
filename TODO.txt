@@ -14,11 +14,12 @@ Plan :
     - more little screenshots (for buttons)
 
 - Intro to Maps and TileSet
-    - redo the screenshots to use the same tileset
+    - fixes from feedback
 
 - Intro to Scenes and Scripts
     - theory about game obects and components + describing components
     - building the first scene : map + character model + player camera
+    
     - theory about scripts in CraftStudio (talking about both text and visual scripts ?)
     - adding Daneel scripts
 
