@@ -27,7 +27,7 @@ else
     echo file_get_contents( $filePath );
 ?>
         <footer>
-            
+            Powered by <a href="https://github.com/florentpoujol/MarkdownStaticSite" title="Go to Markdown Static Site GitHub page">Markdown Static Site</a>. Go back to <a href="http://florentpoujol.fr" title="Go back to Florent Poujol's website">FlorentPoujol.fr</a>.
         </footer>
 
         <script language="javascript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>

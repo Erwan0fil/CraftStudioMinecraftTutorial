@@ -20,8 +20,13 @@ p {
 }
 
 footer {
-  color: rgb(200,200,200);
+  color: rgb(170,170,170);
+  margin-top: 20px;
 }
+footer a,footer a:visited {
+  color: rgb(50,100,170);
+}
+ 
 
 .float-left {
   float: left;
