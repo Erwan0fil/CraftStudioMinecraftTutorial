@@ -1,6 +1,6 @@
 [< Introduction to Models and Animations](introduction-to-models-and-animations.md)  
 <div class="text-align-right next-tutorial-link">
-<p>Introduction to Scenes ></p>
+[Introduction to Scenes >](introduction-to-scenes.md)  
 </div>
 
 ---
@@ -157,5 +157,5 @@ The next tutorial will introduce you the Scene asset, where all other assets are
 
 [< Introduction to Models and Animations](introduction-to-models-and-animations.md)  
 <div class="text-align-right next-tutorial-link">
-<p>Introduction to Scenes ></p>
+[Introduction to Scenes >](introduction-to-scenes.md)  
 </div>

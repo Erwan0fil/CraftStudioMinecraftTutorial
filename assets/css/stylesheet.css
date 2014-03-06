@@ -10,7 +10,7 @@ img {
   max-width: 100%;
 }
 
-p, a {
+p, a, ul, ol, table {
   font-size:1.1em;
 }
 
@@ -30,6 +30,9 @@ footer {
 .float-right {
   float: right;
   margin: 5px;
+}
+.clear-float {
+  clear: both;
 }
 
 .text-align-right {

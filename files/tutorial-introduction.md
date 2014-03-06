@@ -75,6 +75,7 @@ As I am not a native english speaker and despite my best efforts, the tutorials 
 - [Introduction to CraftStudio](introduction-to-craftstudio.md)
 - [Introduction to Models and Animations](introduction-to-models-and-animations.md)
 - [Introduction to Maps and TileSets](introduction-to-maps-and-tilesets.md)
+- [Introduction to Scenes](introduction-to-scenes.md)  
 
 ---
 

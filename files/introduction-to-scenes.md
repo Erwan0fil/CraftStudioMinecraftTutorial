@@ -16,14 +16,15 @@ To allow game objects to have different purposes and perform different actions, 
 Before we go further in the explications, opens the `Scenes` tab and creates a new scene named `Level` (for instance).
 
 Yet again, the interface shows some similarities with the model's and map's interfaces.  
-The left column is the list of game objects, _aka_ the __hierarchy__. Creates a game object and name it `Player Camera`.  
+The left column is the list of game objects, _aka_ the __hierarchy__. Create a game object and name it `Player Camera`.  
 The right column is the list of components for the selected game object.
 
-- [Components](#components)building-the-scene
+- [Components](#components)
 - [Building the scene](#building-the-scene)
+- [Conclusion](#conclusion)
 
 
-<a name="gameobjects"></a>
+<a name="components"></a>
 ## Components
 
 Game objects are by default empty and purpose-less objects in the 3D world.  
@@ -31,11 +32,11 @@ Their purpose and capabilities (representing the level geometry, a prop, playing
 
 In CraftStudio, game objects may have up to seven types of components : 
 
-![The component toolbar](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-scenes/components-toolbar.png "The component toolbar")
+![The components toolbar](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-scenes/components-toolbar.png "The components toolbar")
 
 ### Transform
 
-This is the "default" component, all game objects always have one transform. You can not create or remove such component manually.    
+This is the "default" component, all game objects always have one transform. You can not create or remove such component, that's why there is no button to create it in the toolbar.    
 It is used to represent and manipulate the game object's position, rotation and scale in the scene.
 
 ### Camera
@@ -57,16 +58,17 @@ Leave the field of view to 45 for now.
 These three components' purpose is to display an asset (a model, a map or a font, respectively).  
 Once you added the component you can select an asset to display and optionally set its opacity.
 
-Try it now : creates new game object named `Map` and add a map renderer to it, then select the map you created in the previous tutorial.
+Try it now : create a new game object named `Map` and add a map renderer to it, then select the map you created in the previous tutorial.
 
 ![The map displayed in the scene](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-scenes/maprenderer.png "The map displayed in the scene")
 
-Now creates a third game object named `Steve`, then add a model renderer and set the displayed model to Steve's model.
+Now create a third game object named `Steve`, then add a model renderer and set the displayed model to Steve's model.
 
 ### Scripts
 
 Scripts are a kind of asset but they can also be added on a game object as a component called `ScriptedBehavior`.  
-I won't talk about them now because they are the subject of the next tutorial, but know that scripted behaviors are link reusable, custom components. They will be the source of most of the interactions in the game.
+I won't talk about them now because they are the subject of the next tutorial, but know that scripted behaviors are like reusable, custom components.  
+They will be the source of most of the interactions in the game.
 
 ### Physics
 
@@ -88,7 +90,8 @@ You should already have added three game objects in the scene but it may not loo
 ### Parenting
 
 We talked about parenting in the introduction to Models and Animations.  
-Parenting of game objects works exactly like the parenting of model's blocks. Child objects will move, rotate and be scaled whenever the parent is moved, rotated or scaled.
+Parenting of game objects works exactly like the parenting of model's blocks.  
+Child objects will move, rotate and be scaled whenever the parent is moved, rotated or scaled.
 
 New game objects are automatically parented to the game object you have currently selected, that's why you probably have your game objects parented to each other, like in the screenshot above.  
 
@@ -103,11 +106,44 @@ Now parent Steve to the player camera : Steve hasn't moved but its position is n
 That's because the displayed position is the **offset** (the difference) from the camera's position.  
 The camera is 5 unit above the origin, Steve has a global position of `0, 0, 0`, but a **local** position of `0, -5, 0`, because it is 5 units below the camera (its parent).
 
+![The full scene, with the game object correctly placed](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-scenes/scene-full-2.png "The full scene, with the game object correctly placed")
 
-Ok, now the scene is actually almost over, we just have to place the model over the map and the camera in the air, looking down on the model.  
-Place Steve anywhere
+The scene is actually already almost over, we just have to place the model over the map and the camera in the air, looking down on the model like in the sceenshot above.  
+
+<img src="https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-scenes/run-project.png" alt="Run Project button" title="Run Project button" class="float-left">
+
+Once this is done, launch the game to see what the camera sees.  
+Click on the `Run Project` button, or press `F5`.  
+A window opens to invite you to select the startup scene. Select your scene then click on the `Close` button.  
+A new tab called the `Runtime Report` opens in your project then the actual game window opens :
+
+![Your first game](https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-scenes/first-screenshot.png "Your first game")
+
+Congratulation you created your first video game !
 
 
+### Startup scene
+
+When you run the project that way, the game will always load the startup scene until you ask it to load another scene (with a script).  
+You can make the game loads to the scene you currently edit by pressing `Ctrl + F5`.
+
+<img src="https://dl.dropboxusercontent.com/u/51314747/CraftStudio/MinecraftTutorial/img/intro-scenes/project-administration.png" alt="Project administration button" title="Open the project's administration" class="float-right">
+
+You can also change the startup scene in the `General` tab of the project's administration (open the project's administration from the project's home).
+
+<div class="clear-float"></div>
+
+<a name="conclusion"></a>
+## Conclusion
+
+Scenes are the 3D world, what you actually see through the cameras.  
+
+They are composed of game objects, themselves composed of components (which define the purpose and capabilities of game objects).
+
+Scene and game objects are fully modifiable at runtime by scripts. That's how we will make the world change based on player input.
+
+You may have understood by now that scripts are an important (and complex) topic and a central component of games.  
+Thankfully they are the subject of the next chapter !
 
 ---
 
