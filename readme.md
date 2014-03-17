@@ -4,7 +4,7 @@ Une série de tutoriels qui vise à créer un Minecraft-like avec [CraftStudio](
 
 ## Table de contenu
 
-- [Introduction](http://minecraft.florentpoujol.fr/tutorial-introduction)
-- [Introduction à CraftStudio](http://minecraft.florentpoujol.fr/introduction-to-craftstudio)
-- [Introduction aux Modèles et Animations](http://minecraft.florentpoujol.fr/introduction-to-models-and-animations)
-- [Introduction aux Maps et TileSets](http://minecraft.florentpoujol.fr/introduction-to-maps-and-tilesets)
+- [Introduction](http://minecraft.florentpoujol.fr/tutoriel-introduction)
+- [Introduction à CraftStudio](http://minecraft.florentpoujol.fr/introduction-à-craftstudio)
+- [Introduction aux Modèles et Animations](http://minecraft.florentpoujol.fr/introduction-aux-modèles-et-animations)
+- [Introduction aux Maps et TileSets](http://minecraft.florentpoujol.fr/introduction-aux-maps-et-tilesets)
