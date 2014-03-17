@@ -1,28 +1,28 @@
-[< Tutorial introduction](tutorial-introduction.md)  
+[< Tutoriel introduction](tutoriel-introduction.md)  
 <div class="text-align-right next-tutorial-link">
-[Introduction to Models and Animations >](introduction-to-models-and-animations.md)
+[Introduction aux Modèles et Animations >](introduction-aux-modèles-et-animations.md)
 </div>
 
 ---
 
-# Introduction to CraftStudio
+# Introduction à CraftStudio
 
-In this chapter, you will learn more about the CraftStudio ecosystem, how to install the editor and create a project.  
-From now on "CraftStudio" is abbreviated "CS" throughout the tutorial.
+Dans ce chapitre, nous allons en apprendre plus sur l'environnement de CraftStudio, comment installer l'éditeur et créer un projet.
+A partir de maintenant "CraftStudio" sera abrégé par "CS" partout dans le tutoriel.
 
-- [Brief history of CraftStudio](#history)
-- [CraftStudio's Community](#community)
-- [Installing CraftStudio](#install)
-- [First steps in the editor (client)](#first-step)
-- [Creating a project](#create-project)
+- [Brêve histoire de CraftStudio](#history)
+- [Communauté de CraftSutdio](#community)
+- [Installer CraftStudio](#install)
+- [Premiers pas dans l'éditeur (client)](#first-step)
+- [Créer un projet](#create-project)
 
 
 <a name="history"></a>
-## Brief history of CraftStudio
+## Brêve histoire de CraftStudio
 
-After a few years as a programmer in the game industry, Elisée Maurer started the development of CraftStudio in fall 2011 with one goal in mind : making game development as simple, fun and social as possible.
+Après quelques années en tant que développeur dans l'industrie du jeu vidéo, Elisée Maurer a commencé le développement de CraftStudio fin 2011 avec un but en tête : faire que le développement de jeux vidéo soit aussi simple, fun et social que possible.
 
-First video on [CraftStudio's channel](http://www.youtube.com/user/craftstudiodev) :
+Première vidéo sur [la chaîne de CraftStudio](http://www.youtube.com/user/craftstudiodev) :
 <iframe width="640" height="360" src="//www.youtube.com/embed/KA_AhtkmRYQ" frameborder="0" allowfullscreen></iframe>
 
 A crowdfunding campaign [was successfully run on Indiegogo](http://www.indiegogo.com/projects/craftstudio-real-time-collaborative-game-making) in March 2012, raising more than 23000$ yet at that time only a windows-only, pre-alpha version was working with no real possibilities to create games since you coulnd't create scripts yet.  
