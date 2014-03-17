@@ -1,4 +1,4 @@
-# Créer Minecraft avec CraftStudio : Le tutoriel
+# Créer Minecraft avec CraftStudio : Le Tutoriel
 
 Une série de tutoriels qui vise à créer un Minecraft-like avec [CraftStudio](http://craftstud.io) (et [Daneel](http://daneel.florentpoujol.fr)).
 
