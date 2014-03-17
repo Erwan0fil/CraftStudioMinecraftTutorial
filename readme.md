@@ -1,10 +1,10 @@
-# Crafting Minecraft in CraftStudio: the Tutorial
+# Créer Minecraft avec CraftStudio : Le tutoriel
 
-A series of tutorials that aim to built a Minecraft-like with [CraftStudio](http://craftstud.io) (and [Daneel](http://daneel.florentpoujol.fr)).
+Une série de tutoriels qui vise à créer un Minecraft-like avec [CraftStudio](http://craftstud.io) (et [Daneel](http://daneel.florentpoujol.fr)).
 
-## Table of content
+## Table de contenu
 
 - [Introduction](http://minecraft.florentpoujol.fr/tutorial-introduction)
-- [Introduction to CraftStudio](http://minecraft.florentpoujol.fr/introduction-to-craftstudio)
-- [Introduction to Models and Animations](http://minecraft.florentpoujol.fr/introduction-to-models-and-animations)
-- [Introduction to Maps and TileSets](http://minecraft.florentpoujol.fr/introduction-to-maps-and-tilesets)
+- [Introduction à CraftStudio](http://minecraft.florentpoujol.fr/introduction-to-craftstudio)
+- [Introduction aux Modèles et Animations](http://minecraft.florentpoujol.fr/introduction-to-models-and-animations)
+- [Introduction aux Maps et TileSets](http://minecraft.florentpoujol.fr/introduction-to-maps-and-tilesets)
