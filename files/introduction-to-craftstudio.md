@@ -67,26 +67,26 @@ Le **Serveur** est ce qui héberge les projets que vous créez avec l'éditeur. 
 
 Le **Manager du Serveur** est utilisé pour configuer, démarrer et éteindre le serveur. 
 
-Les **Runtimes** are the *game engines*, they are what makes your games runs. There is one per platform (Windows, Mac, Linux and Web).
+Les **Runtimes** sont le *moteur des jeux*, c'est ce qui fait fonctionner les jeux. Il y en a un par plateforme (Windows, Mac, Linux et Web).
 
 Les **Projets** sont les jeux et films que vous créez via l'éditeur. Ils sont toujours hébergés sur un serveur. 
 
-Les **Ressources** sont les composants des jeux. It's what you create and assemble in a project. They are the Models, Animations, Maps, TileSets, Scenes, Scripts, Sounds, Fonts and Documents.
+Les **Ressources** sont les composants des jeux. C'est ce que vous créez et assemblez dans le projet. Ce sont les modèles, animations, maps, tilesets, scènes, scripts, sons, polices de caractères et documents.
 
 
-### Free vs Premium
+### Gratuit vs Premium
 
-CraftStudio comes with a free or a paid premium license and you can upgrade from free to premium at any time very easily.
+CraftStudio fournit une licence gratuie et une licence premium qui est payante et vous pouvez passez de gratuit à payant très facilement et quand vous le souhaitez.
 
-The free license let's you create any number of projects and any kind of assets (except scripts).  
-But you can't create script assets, you can't export or import assets from/to your projects and you can't export your game.  
-The "only thing" the license allows you to do is create stuffs, not testing themIt still gives you hours of fun and creation but you will quickly be pretty limited with the free license if you want to practice for real while following this tutorial.
+La licence grauite vous permet de créer un nombre de projets et de ressources illimité (excepté les scripts).
+Mais vous ne pouvez pas créer de scripts, vous ne pouvez exporter ou importer des ressources à partir ou vers vos projets et vous ne pouvez tester vos jeux.
+La "seule chose" que vous permets la licence gratuite est de créer des choses mais pas de les tester. Cela vous procurera des heures de fun et de création mais vous allez rapidement être limité avec la licence gratuite si vous voulez vous entraîner pour de vrai en suivant ce tutoriel.
 
-The premium (or full) license let's you do anything including creating scripts, exporting/importing assets from/to your projects and especially exporting your game.  
-It can be purchased for 20 euros (while in Beta) on CraftStudio's website.
+La licence payante vous permet de tout créant en incluant les scripts, l'export et l'import de ressources à partir ou vers vos projets et surtout le fait de pouvoir tester ses jeux.
+Elle peut être achetée pour 20 € (valable durant la béta)sur le site Internet de CraftStudio.
+ 
 
-
-### Download and install
+### Téléchargement et installation
 
 First [create an account on CraftStudio's website](http://craftstud.io/login). This account is mostly used to log in CraftStudio, so be wise with the name you choose.
 
@@ -100,7 +100,7 @@ So if you want you can open the editor directly by pointing at (`C:\Users\ [your
 
 
 <a name="first-step"></a>
-## First steps in the editor (client)
+## Premiers pas dans l'éditeur (client)
 
 ### Breakdown of the interface
 
