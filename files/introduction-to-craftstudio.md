@@ -25,53 +25,53 @@ Après quelques années en tant que développeur dans l'industrie du jeu vidéo,
 Première vidéo sur [la chaîne de CraftStudio](http://www.youtube.com/user/craftstudiodev) :
 <iframe width="640" height="360" src="//www.youtube.com/embed/KA_AhtkmRYQ" frameborder="0" allowfullscreen></iframe>
 
-A crowdfunding campaign [was successfully run on Indiegogo](http://www.indiegogo.com/projects/craftstudio-real-time-collaborative-game-making) in March 2012, raising more than 23000$ yet at that time only a windows-only, pre-alpha version was working with no real possibilities to create games since you coulnd't create scripts yet.  
+Une campagne de financement participatif [s'est déroulée avec succès sur Indiegogo](http://www.indiegogo.com/projects/craftstudio-real-time-collaborative-game-making) en March 2012, ammassant ainsi plus de 23000 $ alors qu'en ce temps il n'y avait qu'une version Windows, et que la version pre-alpha ne permettait pas encore de créer des jeux puisqu'on ne pouvais pas encore créer de scripts.
 
 <iframe width="640" height="360" src="//www.youtube.com/embed/BFVsgFsLzdQ" frameborder="0" allowfullscreen></iframe>
 
-In November 2012, CraftStudio was showcased at this year's MineCon in Paris (Minecraft convention). [MineMatcher](http://play.craftstud.io/games/MineMatcher), and CraftFighter (trailer below) were both created by members of the community for the occasion.
+En Novembre 2012, CraftStudio fut présenté à la MineCon annuelle à Paris (convention Minecraft). [MineMatcher](http://play.craftstud.io/games/MineMatcher), et CraftFighter (trailer plus bas) furent tout deux créés par des membres la communauté à cette occasion.
 
 <iframe width="640" height="360" src="//www.youtube.com/embed/TjpW-K70WwM" frameborder="0" allowfullscreen></iframe>
 
-The CraftStudio's Beta came out in March 2013 with major new features.  
-CraftStudio is since then still in beta but regularly benefits from new features and fixes.
+La beta de CraftStudio sortit en Mars 2013 avec de nouvelles fonctionnalités majeures.
+Depuis, CraftStudio est toujours en beta mais bénéficit régulièrement de nouvelles fonctionnalités et corrections.
 
 
 <a name="community"></a>
-## CraftStudio's community
+## Communauté de CraftSutdio
 
-This tutorial is obviously not the only resource where you can look for information and help.
+Ce tutoriel n'est évidemment pas la seule ressource où vous pouvez trouver des informations et de l'aide.
 
-**[The official wiki](http://learn.craftstud.io)** contains several tutorials as well the obligatory [scripting reference](http://learn.craftstud.io/Reference/Scripting). You might want to bookmark it, as there are chances that you will consult it rather frequently.  
-If you are not confident reading the wiki in English, you should know that it may have been translated to some extends by members of the community (you can change the language at the bottom of the page).
+**[Le wiki officiel](http://learn.craftstud.io)** contient plusieurs tutoriels mais aussi très utiles [références de scripting](http://learn.craftstud.io/Reference/Scripting). Vous feriez mieux de les garder à porté de main, puisqu'il y a de grande chances pour que vous les consultiez fréquemment.
+(Vous pouvez changer la langue en bas de la page)
 
-[Don't neglect the old wiki](http://craftstudio.wikia.com/wiki/CraftStudio_Wiki) which still contains a lot of great resources.
+[Ne négliger pas l'ancien wiki](http://fr.craftstudio.wikia.com/wiki/Wiki_CraftStudio) qui contient encore beaucoup de ressources très utiles.
 
-If you have particular questions that are not answered by the wiki or this tutorial, **[the forum](http://www.craftstudioforums.net/index.php?forum/)** is the next best place to look for answers.
+Si vous avez une question dont vous ne trouvez pas la réponse sur les wikis ou sur ce tutoriel, **[le forum](http://www.forum.craftstudio.fr/)** est le prochain meilleur endroit pour trouver des réponses.
 
-If you are interested in the development of CraftStudio, you may be interested to [follow @CraftSudioDev on Twitter](https://twitter.com/craftstudiodev).
+Si suivre le développement de CraftStudio vous intéresse, alors je vous invite à [suivre @CraftSudioDev sur Twitter](https://twitter.com/craftstudiodev).
 
 
 <a name="install"></a>
-## Installing CraftStudio
+## Installer CraftStudio
 
-### A little terminology first
+### Tout d'abord un peu de terminologie
 
-Before we begin, it's important that we all know exactly what we are talking about :
+Avant de commencer, il est important de savoir de quoi nous parlons exactement :
 
-The **Launcher** is where you log-in with your account and it automatically checks and download updates for any of the CraftStudio components.
+Le **Launcher** est là où vous vous connectez avec votre compte et qui automatiquement vérifie et télécharge les mises à jour de n'importe quel composant de CraftStudio. 
 
-The Client (that I call the **Editor**) is the software that you use to create all the assets and the games. It is launched by the launcher when it has finished updating but you can also open it directly.
+Le Client (que j'appelle l'**Editeur**) est le logiciel que vous utilisez pour créer toutes les ressources et les jeux.Il est démarré par le launcher quand il a terminé de télécharger les mises à jour, mais vous pouvez aussi le démarrer directement.
 
-The **Server** is what hosts the projects that you create with the editor. By default, a local server is launched at the same time as the client so you can just create projects locally on your computer, but the server can be remote.
+Le **Serveur** est ce qui héberge les projets que vous créez avec l'éditeur. Par défaut, un serveur local est démarré en même temps que le client pour que vous puissiez créer des projets localement sur votre ordinateur, mais le serveur peut être sur un autre ordinateur éloigné.
 
-The **Server Manager** is used to configure, start and stop the server.
+Le **Manager du Serveur** est utilisé pour configuer, démarrer et éteindre le serveur. 
 
-The **Runtimes** are the *game engines*, they are what makes your games runs. There is one per platform (Windows, Mac, Linux and Web).
+Les **Runtimes** are the *game engines*, they are what makes your games runs. There is one per platform (Windows, Mac, Linux and Web).
 
-The **Projects** are the games or movies that you edit via the editor. They are always hosted on a server.
+Les **Projets** sont les jeux et films que vous créez via l'éditeur. Ils sont toujours hébergés sur un serveur. 
 
-The **Assets** are the game's components. It's what you create and assemble in a project. They are the Models, Animations, Maps, TileSets, Scenes, Scripts, Sounds, Fonts and Documents.
+Les **Ressources** sont les composants des jeux. It's what you create and assemble in a project. They are the Models, Animations, Maps, TileSets, Scenes, Scripts, Sounds, Fonts and Documents.
 
 
 ### Free vs Premium
@@ -177,7 +177,7 @@ To open the project, you can either click again on the button in the server's wi
 
 ---
 
-[< Tutorial introduction](tutorial-introduction.md)
+[< Tutoriel introduction](tutoriel-introduction.md)
 <div class="text-align-right next-tutorial-link">
-[Introduction to Models and Animations >](introduction-to-models-and-animations.md)
+[Introduction aux Modèles et Animations >](introduction-aux-modèles-et-animations.md)
 </div>
